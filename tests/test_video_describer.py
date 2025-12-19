@@ -1,7 +1,7 @@
 import os
 import unittest
 from unittest.mock import patch
-from frame_story.video_describer import VideoDescriber
+from framestoryx.video_describer import VideoDescriber
 
 
 class TestVideoDescriber(unittest.TestCase):

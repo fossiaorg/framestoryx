@@ -3,26 +3,26 @@
 [![Downloads](https://static.pepy.tech/badge/FrameStory)](https://pepy.tech/project/FrameStory)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue)](https://www.linkedin.com/in/eugene-evstafev-716669181/)
 
-# Frame Story
+# framestory
 
-`FrameStory` is a Python package designed for extracting and describing significant frames from videos. Leveraging state-of-the-art machine learning models, it can provide detailed descriptions of video content, making it a powerful tool for content analysis, accessibility, and summarization.
+`framestoryx` is a successor to [FrameStory](https://github.com/chigwell/frame_story/) for better compatibility with modern Python tooling. Leveraging state-of-the-art machine learning models, it can provide detailed descriptions of video content, making it a powerful tool for content analysis, accessibility, and summarization.
 
 ## Installation
 
-To install `FrameStory`, you can use pip:
+To install `framestoryx`, you can use pip:
 
 ```bash
-pip install FrameStory
+pip install git+https://github.com/fossiaorg/framestoryx
 ```
 
 ## Usage
 
-Using `FrameStory` is straightforward. Below are examples demonstrating how to extract and describe significant frames from videos with various parameters.
+Using `framestoryx` is straightforward. Below are examples demonstrating how to extract and describe significant frames from videos with various parameters.
 
 ### Describing Video by URL
 
 ```python
-from frame_story.video_describer import VideoDescriber
+from framestoryx.video_describer import VideoDescriber
 
 video_url = "https://example.com/video.mp4"
 describer = VideoDescriber(show_progress=True)
@@ -62,7 +62,7 @@ These examples demonstrate the versatility of `frame_story` in processing videos
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/chigwell/frame_story/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/fossiaorg/framestoryx/issues).
 
 ## License
 
